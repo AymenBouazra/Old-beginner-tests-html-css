@@ -1,0 +1,274 @@
+.body{
+    background-color: #F5F5F5;
+}
+.widthdiv{
+    width:1200px;
+}
+.bg-orange{
+    background-color: #FF9900;
+    height: 56px;
+    width: 100%;
+}
+.contact{
+    display: block;
+    margin: auto;
+    width: 1200px;
+    height: 56px;
+}
+
+.vente:hover{
+    color: #FF9900;
+    text-decoration: underline;
+    
+}
+.vente{
+    display:block;
+    width:1200px;
+    color: #FF9900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.star{
+    width: 13px;
+    height: 13px;
+    margin-right: 7px ;
+    margin-bottom: 2px;
+}
+.logo{
+    width: 140px;
+    height: 33px;
+}
+.jumiasearch{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    padding-top:10px;
+}
+.Category{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    background-color: white;
+    border-radius: 5px;
+  
+}
+.Category{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    background-color: white;
+    border-radius: 5px;
+  
+}
+.offers{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 61%;
+    background-color: white;
+    border-radius: 5px;
+  
+}
+.two{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    border-radius: 5px; 
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 48%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.servicelink{
+    color: black;
+    font-size: 17px;
+    
+    text-decoration: none;
+}
+.servicelink:hover{
+    color: black;
+    text-decoration: none;
+
+}
+.fa-question-circle{
+    margin-right: 10px!important;
+    width: 20px;
+    height: 20px;
+}
+.fa-building{
+    margin-right: 10px!important;
+    width: 20px!important;
+    height: 20px!important;
+    border: 2px orange!important;
+    border-radius: 10%!important;
+}
+.offredujour{
+    height: 48%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.total{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.types{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: black;
+    text-decoration: none;
+}
+.types:hover{
+    color:  #FF9900;
+    text-decoration: none;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1200px;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 23%;
+    background-color: white;
+    border-radius: 5px;
+}
+.bgcolor{
+    
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 1px  0 rgb(207, 207, 207);
+}
+.form-control{
+    width: 450px !important;
+    margin-left: 70px;
+    height: 40px;
+}
+.btn-outline-success{
+    color:white !important;
+    background-color: #FF9900 !important;
+    border-color: #d88201 !important;
+    
+}
+
+.fa-user{
+    margin-right: 3px;
+}
+.nav-link{
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    color:#FF9900 !important;
+    background-color: rgb(226, 226, 226);
+   
+}
+.ou{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.ligne{
+    width: 40%;
+    color:gray;
+    height: 1px;
+}
+.connect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.compte{
+   
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  
+}
+.account{
+    color: #FF9900 ;
+    width: auto!important;
+    border-radius: 5px;
+    
+}
+.account:hover{
+    background-color: #ffd493 !important;
+}
+
+.espace{
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 80%;
+}  
+
+.fa-question-circle{
+   margin-right: 3px;
+}
+.fa-shopping-cart{
+    margin-right: 3px;
+}
+.panier{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.achat{
+    color: black;
+    text-decoration: none;
+}
+.achat:hover{
+    color: #FF9900 ;
+    text-decoration: none;
+}
+/* @media (max-width:1410px){
+    .contact{
+        width: 1200px;
+
+    }
+    .ventepos{
+        width: 1200px;
+    }
+    .bg-orange{
+        width: 1200px;
+    }
+}
+ @media (max-width:1200px){
+    .contact{
+        width: 992px;
+
+    }
+    .ventepos{
+        width: 992px;
+    }
+    .bg-orange{
+        width: 100%;
+    }
+}  */

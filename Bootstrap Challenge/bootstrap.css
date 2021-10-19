@@ -1,0 +1,131 @@
+.bgnav{
+    background-color: #7952B3;
+    height: 65px;
+    
+}
+.bdesign{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #7952B3;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.bdesign:hover{
+    text-decoration: none;
+    color: #7952B3;
+}
+.homedesign{
+    color: white;
+    margin: 10px;
+}
+.homedesign:hover{
+    color: white;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    font-size: 20px;
+}
+.icon{
+    color: white;
+    padding: 10px;
+}
+.icon:hover{
+    color: white;
+}
+.open{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+.btns{
+    color:#FFE484;
+    border: 0.5px solid #FFE484;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top:5px ;
+    margin-top: 5px; 
+    transition: 0.7s;
+}
+.btns:hover{
+    background-color: #FFE484;
+    color:  #7952B3;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.espace{
+    display: flex;
+    justify-content: space-between;
+}
+.bgcolor{
+    background-color:  #7952B3;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.bar{
+    background-color: transparent;
+}
+@media (max-width:768px){
+    .collapse{
+        display: flex;
+        flex-direction: column;
+    }
+    .liste{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    .home{
+        margin:auto;
+    }
+    .bar{
+        width: 70%;
+        height: 1px;
+        background-color: grey;
+    }
+}
+@media (max-width:992px){
+    .collapse{
+        display: flex;
+        flex-direction: column;
+    }
+    .liste{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+    }
+    .home{
+        margin:auto;
+    }
+    .bar{
+        width: 70%;
+        height: 1px;
+        background-color: grey;
+    }
+}
+
+
