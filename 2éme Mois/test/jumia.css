@@ -1,0 +1,17 @@
+.vente{
+    color: #F68B1E;
+
+}
+.vente:hover{
+    color: #F68B1E;
+}
+.star{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+body{
+    background-color: #F5F5F5;
+}
+

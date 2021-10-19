@@ -1,0 +1,136 @@
+
+.facebook-logo {
+    font-size: 4em;
+    color: #1877F2;
+    font-weight: bolder;
+    margin: 15px 20px;
+    padding-left: 150px;
+}
+.facebook-description { 
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 150px;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+}
+.facebook-container{
+    font-family: 'PT Sans', sans-serif;
+    width: 55%;
+    margin: 150px 0;
+
+  
+}
+.facebook-form-container{
+    width: 45%;
+    margin: 150px 80px 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.facebook-form{
+   
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+
+    width: 70%;
+    box-shadow: 0px 0px 20px 0.5px rgba(128, 128, 128, 0.473);
+    border-radius: 20px;
+    background-color: white;
+}
+@media (max-width:1000px) { 
+    .div1{
+        flex-direction: column;
+        align-items: center;      
+    }
+    .facebook-container,.facebook-form-container{
+        margin: 0px;
+        width: 350px;
+       
+
+    }
+    .facebook-form{
+        margin: 0;
+        width: 100%;
+    }
+    .facebook-logo,.facebook-description{
+        padding: 0;
+        margin: 0;
+    }
+}
+input[type=email],input[type=password]{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 7px;
+    border: 1px solid grey;
+    opacity: 0.9;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+.cnx-btn,.cre-btn{
+    display: block;
+}
+.cnx-btn{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: white;
+    background-color:#166FE5 ;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition:  1s ease-out;
+    
+}
+#center-style{
+    display: block;
+    text-align: center;
+}
+.cnx-btn:hover{
+    background-color: #0055c5 ;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition:  0.5s ease-in;
+    
+}
+.cre-btn{
+    background-color: #36A420;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+.cre-btn:hover{
+    background-color: #278d13;
+    color: white;
+    text-decoration: none;
+}
+.crepage{
+    
+    color: black;
+    font-weight: bold;
+    
+}
+.crepage:hover{
+    color: black;
+    font-weight: bold;
+}
+.para{
+    display: block;
+    display: flex;
+    justify-content: center;
+   text-align:  center;
+   margin: 20px 80px 30px 10 px; 
+   width: 80%;
+}

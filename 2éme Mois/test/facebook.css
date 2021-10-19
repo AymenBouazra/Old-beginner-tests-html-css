@@ -1,0 +1,68 @@
+body{
+    background-color: #d0d6e6;
+    width:auto
+    
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    background-color: #3b5998;
+    width: 100%; 
+    height: auto;
+   
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: rgb(194, 194, 194);
+}
+@media (max-width: 800px){
+    .div1{
+        flex-direction: column;
+    }
+    .div2{
+        flex-direction: column;
+    }
+}
+.intro{
+    width: 450px;height:auto;
+}
+.taille1{
+    width: 50%;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.taille2{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.date{
+    width: 70px;
+    height: 30px; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    font-size: 17px;
+}
+/*input{
+    border-radius: 5px;
+    border-color: grey;
+}*/
+select{
+    border-radius: 5px;
+}
+.info{
+    border-radius: 50%; 
+    background-color: grey; 
+    color: white;
+
+}
+
+.login{
+    background-color: #637bad; color: white;width: 60px;
+}
